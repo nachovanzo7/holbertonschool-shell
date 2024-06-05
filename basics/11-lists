@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lha ls -lha .. ls -lha /boot
+./listar 
