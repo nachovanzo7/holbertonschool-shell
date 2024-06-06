@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -name hello -type f -user {guillaume} -exec chown :vincent hello 
+chown --from=guillaume :vicent hello
+ 
