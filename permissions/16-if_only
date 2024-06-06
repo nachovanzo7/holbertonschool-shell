@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./hello -type f -user guillaume -exec chown :vincent hello 
+find . -name hello -type f -user guillaume -exec chown :vincent hello 
