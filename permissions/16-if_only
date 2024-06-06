@@ -1,0 +1,2 @@
+#!/bin/bash
+if [stat -c hello == guillaume] then chown :vincent hello fi 
