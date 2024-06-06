@@ -1,2 +1,2 @@
 #!/bin/bash
-if [stat %U hello == guillaume] then chown :vincent hello fi 
+if [[(stat %U hello) == guillaume]] then chown :vincent hello fi 
